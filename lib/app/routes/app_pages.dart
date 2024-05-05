@@ -28,12 +28,12 @@ class AppPages {
       binding: BranchBinding(),
     ),
     GetPage(
-      name: _Paths.ADD_BRANCH,
+      name: _Paths.addBranch,
       page: () => const AddBranchView(),
       binding: AddBranchBinding(),
     ),
     GetPage(
-      name: _Paths.DETAIL_BRANCH,
+      name: _Paths.detailBranch,
       page: () => const DetailBranchView(),
       binding: DetailBranchBinding(),
     ),
