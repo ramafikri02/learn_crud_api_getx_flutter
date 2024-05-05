@@ -34,7 +34,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.detailBranch,
-      page: () => const DetailBranchView(),
+      page: () => DetailBranchView(),
       binding: DetailBranchBinding(),
     ),
   ];

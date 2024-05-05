@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
+import 'package:learc_getx_crud/app/routes/app_pages.dart';
 
 import '../controllers/branch_controller.dart';
 
@@ -34,7 +35,9 @@ class BranchView extends GetView<BranchController> {
                   borderRadius: BorderRadius.circular(9),
                 ),
                 child: InkWell(
-                  onTap: () {},
+                  onTap: () {
+                    Get.toNamed(Routes.detailBranch, arguments: branch);
+                  },
                   borderRadius: BorderRadius.circular(9),
                   child: Container(
                     height: 80,
